@@ -1,0 +1,27 @@
+
+    body {
+      background: linear-gradient(135deg, #4c6863 0%, #353c5a 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .quiz-container {
+      background: #000000;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+      max-width: 600px;
+      width: 100%;
+      animation: fadeIn 0.8s ease;
+      color: aliceblue;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    
+    .btn{
+       background-color: #353c5a;
+    }
